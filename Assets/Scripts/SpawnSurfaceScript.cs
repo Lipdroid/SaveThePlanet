@@ -15,5 +15,6 @@ public class SpawnSurfaceScript : MonoBehaviour {
 	void Update () {
 		//ratate the spawnpoint all the time
 		transform.Rotate(new Vector3( 0, 0, -angle) * speed * Time.deltaTime);
+
 	}
 }
