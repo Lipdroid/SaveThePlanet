@@ -15,6 +15,6 @@ public class Orbitor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.RotateAround (pivotObject.transform.position, Vector3.forward, speed * Time.deltaTime);
+		transform.RotateAround (pivotObject.transform.position, Vector3.back, speed * Time.deltaTime);
 	}
 }
