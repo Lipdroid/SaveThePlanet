@@ -17,4 +17,7 @@ public class PlanetScript : MonoBehaviour {
 		//ratate the planet all the time
 		transform.Rotate(new Vector3(0,0,-angle) * speed * Time.deltaTime);
 	}
+	void OnMouseOver(){
+		Debug.Log ("Mouse is on a planet");
+	}
 }

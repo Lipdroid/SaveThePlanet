@@ -13,7 +13,7 @@ public class SpawnSurfaceScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//ratate the spawnpoint all the time
+		//rotate the spawnpoint all the time
 		transform.Rotate(new Vector3( 0, 0, -angle) * speed * Time.deltaTime);
 
 	}

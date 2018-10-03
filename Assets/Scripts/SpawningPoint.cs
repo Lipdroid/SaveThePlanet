@@ -8,12 +8,17 @@ public class SpawningPoint : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		int rand = Random.Range (0, spawningObjects.Length);
-//		GameObject spawningObject = Instantiate (spawningObjects [rand], transform.position, Quaternion.identity);
-//		spawningObject.transform.parent = this.transform;
+		Vector2 pos = new Vector2 (transform.position.x, transform.position.y);
+		GameObject spawningObject = Instantiate (spawningObjects [rand], pos, transform.localRotation);
+		spawningObject.transform.parent = this.transform;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	void OnMouseOver(){
+		Debug.Log ("Mouse is on a spawnpoint");
 	}
 }
