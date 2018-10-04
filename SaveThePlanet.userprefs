@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scale.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SpawnSurfaceScript.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/Orbitor.cs" Line="18" Column="27" />
+      <File FileName="Assets/Scripts/PlanetScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Scale.cs" Line="27" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

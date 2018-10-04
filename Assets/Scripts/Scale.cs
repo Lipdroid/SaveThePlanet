@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Scale : MonoBehaviour {
-	
+	public GameObject effect;
 	void Start () {
 		
 	}
@@ -21,7 +21,9 @@ public class Scale : MonoBehaviour {
 	public void OnMouseOver()
 	{
 		Debug.Log ("Create pulse animation");
-
+		//gameObject.transform.position = new Vector3(Mathf.PingPong(Time.time, 3), Mathf.PingPong(Time.time, 3), 0);
+		Instantiate (effect, transform.position, Quaternion.identity);
+		Destroy(gameObject);
 	}
 
 	public void OnMouseExit()
