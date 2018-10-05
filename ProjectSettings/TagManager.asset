@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Clouds
+    uniqueID: 439654503
+    locked: 0
+  - name: Planet
+    uniqueID: 3910953033
+    locked: 0
+  - name: BottomMeny
+    uniqueID: 2032794107
+    locked: 0
+  - name: SpawingObjects
+    uniqueID: 1972534197
+    locked: 0
